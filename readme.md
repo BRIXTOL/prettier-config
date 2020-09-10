@@ -1,6 +1,6 @@
 ## @brixtol/prettier-config
 
-This package includes the shareable Prettier configuration used by [Brixtol Textiles](https://www.brixtoltextiles.com). Prettier is not applied to JavaScript files.
+This package includes the shareable Prettier configuration consumed by [Brixtol Textiles](https://www.brixtoltextiles.com).
 
 ### Install
 
@@ -26,7 +26,7 @@ We extend configuration from within `package.json` files.
 
 ### License
 
-Licensed under [MIT](#LICENCE)
+[MIT](#LICENCE)
 
 ---
 
