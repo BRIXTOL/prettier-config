@@ -1,0 +1,31 @@
+{
+  "name": "@brixtol/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier configuration consumed by Brixtol Textiles",
+  "main": "prettier.js",
+  "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "config",
+    "brixtol",
+    "formatting"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brixtol/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/brixtol/prettier-config/issues"
+  },
+  "engines": {
+    "pnpm": ">=5"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.1.1"
+  }
+}
