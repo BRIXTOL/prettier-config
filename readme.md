@@ -16,13 +16,13 @@ We extend configuration from within `package.json` files.
 
 ```json
 {
-  'extends': [ 'brixtol']
+  "prettier": "@brixtol/prettier-config"
 }
 ```
 
 ### Related
 
-- [@brixtol/eslint-config-brixtol](https://github.com/brixtol/eslint-config-brixtol)
+- [@brixtol/eslint-config](https://github.com/brixtol/eslint-config)
 
 ### License
 
