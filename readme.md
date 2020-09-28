@@ -20,9 +20,14 @@ We extend configuration from within `package.json` files.
 }
 ```
 
+### Ignore JavaScript and TypeScript
+
+Each repository will need to include a `.prettierignore` file that excludes both `.js` and `.ts` files. Prettier wreaks havoc in the development workspace when being used in combination with ESLint and VSCode, so ignore its use on those files.
+
 ### Related
 
-- [@brixtol/eslint-config](https://github.com/brixtol/eslint-config)
+- [@brixtol/eslint-config-javascript](https://github.com/brixtol/eslint-config-javascript)
+- [@brixtol/eslint-config-typescript](https://github.com/brixtol/eslint-config-typescript)
 
 ### License
 
