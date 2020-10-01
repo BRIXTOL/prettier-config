@@ -1,8 +1,8 @@
 {
   "name": "@brixtol/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prettier configuration consumed by Brixtol Textiles",
-  "main": "prettier.js",
+  "main": "index.js",
   "author": "Νίκος Σαβίδης <nicos@brixtoltextiles.com>",
   "license": "MIT",
   "keywords": [
