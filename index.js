@@ -4,9 +4,9 @@ module.exports = {
       files: [
         '*.json',
         '*.jsonc',
-        '.liquidrc',
-        '.liquidrc.json'
+        '.liquidrc'
       ],
+      plugins: [],
       options: {
         parser: 'json-stringify',
         arrowParens: 'avoid',
