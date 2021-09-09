@@ -1,30 +1,42 @@
+/**
+ * @type {import('prettier').Options}
+ */
 module.exports = {
+  arrowParens: "avoid",
+  bracketSpacing: true,
+  htmlWhitespaceSensitivity: "css",
+  insertPragma: false,
+  jsxBracketSameLine: false,
+  jsxSingleQuote: false,
+  printWidth: 70,
+  proseWrap: "preserve",
+  quoteProps: "as-needed",
+  requirePragma: false,
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: "none",
+  useTabs: false,
   overrides: [
     {
-      files: [
-        '*.json',
-        '*.jsonc',
-        '.liquidrc'
-      ],
-      plugins: [],
+      files: ["*.md"],
       options: {
-        parser: 'json-stringify',
-        arrowParens: 'avoid',
-        bracketSpacing: true,
-        htmlWhitespaceSensitivity: 'css',
-        insertPragma: false,
-        jsxBracketSameLine: false,
-        jsxSingleQuote: false,
-        printWidth: 75,
-        proseWrap: 'preserve',
-        quoteProps: 'as-needed',
-        requirePragma: false,
-        semi: true,
-        singleQuote: false,
-        tabWidth: 2,
-        trailingComma: 'none',
-        useTabs: false
+        parser: "markdown",
+        printWidth: 100
+      }
+    },
+    {
+      files: ["**/*.json", "**/*.jsonc"],
+      options: {
+        parser: "json",
+        printWidth: 60
+      }
+    },
+    {
+      files: ["**/package.json"],
+      options: {
+        parser: "json-stringify"
       }
     }
   ]
-}
+};

@@ -7,7 +7,7 @@ This package includes the shareable Prettier configuration consumed by [Brixtol 
 [pnpm](https://pnpm.js.org/en/cli/install)
 
 ```cli
-pnpm i @brixtol/prettier-config --save-dev
+pnpm add @brixtol/prettier-config --save-dev
 ```
 
 ### Usage
