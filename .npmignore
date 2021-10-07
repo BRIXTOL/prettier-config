@@ -1,2 +1,7 @@
-# Files
+# FILES
+.npmrc
 readme.md
+
+# DIRECTORIES
+.vscode
+node_modules
