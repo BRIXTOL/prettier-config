@@ -26,8 +26,8 @@ Each repository will need to include a `.prettierignore` file that excludes both
 
 ### Related
 
-- [@brixtol/eslint-config-javascript](https://github.com/brixtol/eslint-config-javascript)
-- [@brixtol/eslint-config-typescript](https://github.com/brixtol/eslint-config-typescript)
+- [@brixtol/eslint-config](https://github.com/brixtol/eslint-config)
+- [@brixtol/browserslist-config](https://github.com/brixtol/browserslist-config)
 
 ### License
 
