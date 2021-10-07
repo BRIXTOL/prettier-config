@@ -26,7 +26,7 @@ We extend configuration from within `package.json` files.
 
 Install the [esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension from the marketplace. Depending on how your editor is configured, one may require setting global configuration in a user `settings.json` file:
 
-```json
+```jsonc
 {
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
