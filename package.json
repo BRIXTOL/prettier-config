@@ -1,6 +1,6 @@
 {
   "name": "@brixtol/prettier-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Prettier configuration consumed by Brixtol Textiles",
   "main": "index.js",
   "author": {
